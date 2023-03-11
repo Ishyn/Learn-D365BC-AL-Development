@@ -22,7 +22,7 @@ codeunit 50106 "ChatGPT Integration with BC"
 
     begin
 
-        //model text-davinci-003
+        //AI model text-davinci-003
         model := 'text-davinci-003';
         maxtoken := 2048;
         temperature := 1;
