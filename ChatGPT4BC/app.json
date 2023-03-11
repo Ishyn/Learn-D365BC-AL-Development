@@ -1,7 +1,7 @@
 {
   "id": "2543ed1c-0667-42a5-8d97-459f8325e480",
   "name": "ChatGPT4BC",
-  "publisher": "Microsof",
+  "publisher": "Microsoft",
   "version": "1.0.0.0",
   "brief": "ChatGPT_BC",
   "description": "ChatGPT with Business Central integration",
