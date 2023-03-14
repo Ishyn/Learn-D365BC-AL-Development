@@ -123,19 +123,6 @@ codeunit 50106 "ChatGPT Integration with BC"
         ChatGPTConver."Entry No." := LastLine + 1;
         ChatGPTConver.Message := ConVer;
         ChatGPTConver.Insert();
-    end;
-
-    //  procedure InsertPrefix(LastLine: Integer)
-    // var
-    //     LastLine: Integer;
-    // begin
-    // if ChatGPTConver.FindLast() then
-    //     LastLine := ChatGPTConver."Entry No.";
-    //        ChatGPTConver.Init();
-    //      ChatGPTConver."Entry No." := LastLine + 1;
-    //    ChatGPTConver.Message := ConVer;
-    //  ChatGPTConver.Insert();
-
-    // end;
+    end;   
 
 }
