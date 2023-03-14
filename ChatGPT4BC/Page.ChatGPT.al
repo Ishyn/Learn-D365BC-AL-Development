@@ -21,10 +21,9 @@ page 50112 "Chat GPT"
                 Caption = 'Direct your question to Chat GPT';
                 trigger OnValidate()
                 begin
-                    APIKEY := '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'; //my free APIkey
-                    //APIKEY := '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';
+                    APIKEY := 'xx-xxxxxx'; //OpenAI APIkey
                     if MessageToSend <> '' then begin
-                        ChatGPTIntegrationwithBC.InsertResponse('YOU ' + MessageToSend);
+                        ChatGPTIntegrationwithBC.InsertResponse('You ' + MessageToSend);
                         Commit();
                         CurrPage.Update(false);
                         response := ChatGPTIntegrationwithBC.SendMessage(APIKEY, MessageToSend);
